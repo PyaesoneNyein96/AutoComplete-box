@@ -1,0 +1,132 @@
+body {
+    background-color: rgba(0, 255, 255, 0.63);
+    padding: 20px;
+}
+
+.container {
+    /* width: fit-content; */
+    width: auto;
+    /* min-width: 600px; */
+    padding: 0px;
+    background-color: rgba(60, 60, 211, 0.16);
+    margin-top: 120px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.inputbox {
+    max-width: 20em;
+    /* min-width: 4em; */
+    margin: auto;
+
+}
+
+.resultBox {
+    max-width: 20em;
+    /* min-width: 10em; */
+    height: fit-content;
+    margin: auto;
+    /* background-color: rgb(255, 0, 102); */
+}
+
+.productContainer {
+    /* min-height: 40px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 7px 0px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    transition: all .15s;
+}
+
+.productContainer:hover {
+    transform: scale(1.018);
+    /* opacity: 0.7; */
+    cursor: pointer;
+    color: rgb(157, 111, 98);
+}
+
+.productName {
+    max-width: 15em;
+    height: fit-content;
+    margin-left: 10px;
+    padding: 8px 0 10px 5px;
+}
+
+.productImg {
+    width: 2em;
+    margin-right: 10px;
+    margin: 3px;
+    transition: all .3s ease-in;
+    border-radius: 4px;
+
+}
+
+.productImg:hover {
+    /* transform: scale(5.8) */
+    transform: translateY(-70px) scale(3.8);
+    border: solid 0.5px gray;
+}
+
+.h5:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.alertbox {
+    width: 150px;
+    margin: auto;
+    background-color: yellow;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cartContainer {
+    /* max-width: 500px; */
+    /* min-width: 500px; */
+    margin: auto;
+    align-items: center;
+    display: flex;
+    /* background-color: rgba(137, 43, 226, 0.871); */
+    flex-direction: column;
+}
+
+.h5 {
+    width: 10em;
+    margin-left: 7%;
+}
+
+.btn-close {
+    color: rgb(22, 80, 131);
+    background-color: rgb(78, 166, 95);
+    justify-content: center;
+    margin: 15px 10px 0px 10px;
+    /* margin-top: 15px; */
+
+}
+
+
+.cart {
+    margin: auto;
+    min-width: 275px;
+    /* width:380px; */
+    max-width: 25em;
+    background-color: rgb(255, 255, 255);
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 20em;
+    /* min-width: 400px; */
+    /* max-width: 1000px; */
+    background-color: rgba(240, 248, 255, 0.215);
+    /* align-self: flex-end; */
+}
